@@ -1,0 +1,42 @@
+@-webkit-keyframes disparition {
+	from {
+		opacity:1;
+    }
+    to {
+		opacity:0;
+    }
+}
+
+.erreur,.valide {
+	position:fixed;
+	width:100%;
+	bottom:0;
+	padding:2px;
+	font-weight:bold;
+	right:0;
+	left:0;
+	color:white;
+	text-align:center;
+	z-index:100;
+	opacity:1;
+}
+
+.anime {
+	-webkit-animation-duration: 5s;
+	-webkit-animation-name: disparition;
+	-webkit-animation-fill-mode: forwards;
+	animation-duration: 5s;
+	animation-name: disparition;
+	animation-fill-mode: forwards;
+	-moz-animation-duration: 10s;
+	-moz-animation-name: disparition;
+	-moz-animation-fill-mode: forwards;
+}
+
+.erreur {
+	background-color:red;
+}
+
+.valide {
+	background-color:green;
+}

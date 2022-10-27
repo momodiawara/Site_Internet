@@ -1,0 +1,40 @@
+/*
+	Tablette
+*/
+
+@media screen and (max-width: 900px) {
+	.defil {
+		height:250px;
+	}
+	
+	main .table td {
+		border:2px solid black;
+	}
+	
+	main textarea {
+		width:90%;
+	}
+	main .mesdoc > textarea {
+		left:0;
+	}
+	
+}
+
+/*
+	Grand Ordinateur
+*/
+@media screen and (min-width: 2100px) {
+	.final {
+		width:300px;
+		height:300px;
+	}
+	.defil {
+		height:1000px;
+	}
+	.buttons > label {
+		width: 50px;
+		height:50px;
+		line-height:100%;
+	}
+}
+
